@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Synth Music</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <section class="piano">
+      <div class="black-row">
+        <btn class="key black-key"></btn>
+        <btn class="key black-key"></btn>
+        <btn class="key black-key hide"></btn>
+        <btn class="key black-key"></btn>
+        <btn class="key black-key"></btn>
+        <btn class="key black-key"></btn>
+        <btn class="key black-key hide"></btn>
+        <btn class="key black-key"></btn>
+        <btn class="key black-key"></btn>
+        <btn class="key black-key hide"></btn>
+      </div>
+      <div class="white-row">
+        <btn class="key white-key"></btn>
+        <btn class="key white-key"></btn>
+        <btn class="key white-key" data-note="E1"></btn>
+        <audio id="E1" src="E_01.mp3"></audio>
+        <btn class="key white-key"></btn>
+        <btn class="key white-key"></btn>
+        <btn class="key white-key" data-note="Am"></btn>
+        <audio id="Am" src="Am_01.mp3" type="audio/mpeg"></audio>
+        <btn class="key white-key"></btn>
+        <btn class="key white-key"></btn>
+        <btn class="key white-key"></btn>
+        <btn class="key white-key" data-note="E2"></btn>
+        <audio id="E2" src="E_01.mp3"></audio>
+        <btn class="key white-key"></btn> 
+      </div>
+
+    </section>
+
+  </body>
+  <script src="script.js"></script>
+
+</html>
